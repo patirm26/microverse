@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>"Hello world, we are software developers!"</h2>    
-</body>
-</html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <head>
+    <body>
+      <header id="header">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/900px-JavaScript-logo.png">
+          </img>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#header">1</a>
+          </br>
+          <a class="nav-link" href="#header">2</a>
+          </br>
+          <a class="nav-link" href="#header">3</a>
+          </br>
+        </nav>
+        </header>
+        <video id="video" src="https://www.youtube.com/watch?v=xepDLYVLWF0"></video>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" required placeholder="email.." type="email"/>
+        <input id="submit" type="submit" />
+
+      </form>
+      </body>
+      <footer>
+
+      </footer>
+  </html>
